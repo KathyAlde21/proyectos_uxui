@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos UX/UI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://i.ytimg.com">
+    <link rel="preconnect" href="https://www.youtube.com">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <!-- Izquierda -->
+            <a class="navbar-brand" href="#">Proyectos UX/UI</a>
+            <!-- Botón hamburguesa alineado a la derecha -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú alineado a la derecha al expandir -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="#bienvenido" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./centro_de_estudios_alderete.html">Centro de Estudios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./alderete_sports.html">Alderete Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pp3">pp3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pp4">pp4</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- target="_blank" rel="noopener noreferrer" se uso para generar una página nueva con el enlace -->
+                        <a class="nav-link" href="https://github.com/KathyAlde21" target="_blank"
+                            rel="noopener noreferrer">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div style="height: 56px;"></div> <!-- Espacio para navbar fija -->
+
+    <!-- derivan a cada segmento, para facilitar al usuario la elección -->
+    <section class="project-subnav">
+        <div class="container">
+            <nav class="project-meta" aria-label="Navegación interna del proyecto">
+                <a href="#contexto" class="project-tag">Contexto</a>
+                <a href="#benchmarking" class="project-tag">Benchmarking</a>
+                <a href="#card-sorting" class="project-tag">Card Sorting</a>
+                <a href="#sitemap" class="project-tag">Sitemap</a>
+                <a href="#wireflow" class="project-tag">Wireflow</a>
+                <a href="#documento-final" class="project-tag">Documento Final</a>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Contenido principal del proyecto -->
+    <main class="project-main">
+        <!-- primer bloque => descripcin proyecto -->
+        <section class="project-hero container py-5">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-6">
+                    <p class="project-kicker mb-2">Proyecto UX/UI · Arquitectura de la Información</p>
+                    <h1 class="project-title mb-3">Alderete Sports</h1>
+                    <p class="project-lead mb-4">
+                        Proyecto centrado en la organización de contenidos y en la definición
+                        de una estructura clara para un e-commerce deportivo, a partir de
+                        benchmarking, card sorting, sitemap y wireflow.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <button type="button" class="image-button p-0 border-0 bg-transparent" data-bs-toggle="modal"
+                        data-bs-target="#modalSitemapAldereteSports"
+                        aria-label="Ampliar sitemap del proyecto Alderete Sports">
+                        <img src="../assets/img/alderete_sports/prototipo_alderete_sports.png"
+                            class="img-fluid rounded shadow-sm project-image"
+                            alt="Sitemap del proyecto Alderete Sports">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- segundo bloque => contexto -->
+        <section id="contexto" class="project-overview container pb-5 pt-5">
+            <div class="row g-4">
+                <div class="col-12 col-lg-7">
+                    <h2 class="section-title mb-3">Contexto</h2>
+                    <p>
+                        Este proyecto tuvo como objetivo definir una arquitectura de la información
+                        más clara e intuitiva para un e-commerce deportivo, trabajando desde el análisis
+                        de referentes hasta la construcción de una propuesta estructural propia.
+                    </p>
+                    <p class="mb-0">
+                        El proceso incluyó benchmarking, inventario de contenidos, card sorting con
+                        tres participantes, sitemap y wireflow de la tarea principal.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <div class="project-card p-4 h-100">
+                        <h3 class="h5 mb-3">Enfoque</h3>
+                        <p class="mb-0">
+                            Más que diseñar una interfaz final, este trabajo se centró en ordenar,
+                            agrupar y nombrar contenidos de forma coherente para facilitar la navegación
+                            y reducir fricción en el recorrido del usuario.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- tercer bloque => benchmarking -->
+        <section id="benchmarking" class="project-moodboard container pb-5">
+            <div class="project-highlight p-4 p-lg-5">
+                <h2 class="section-title mb-3">Benchmarking y análisis inicial</h2>
+                <p>
+                    Como punto de partida se revisaron referentes del rubro deportivo para detectar
+                    patrones, problemas de navegación y oportunidades de mejora en categorías, búsqueda,
+                    jerarquía y rotulado.
+                </p>
+                <p class="mb-0">
+                    Este análisis permitió identificar qué elementos funcionaban, cuáles generaban fricción
+                    y qué aspectos debían replantearse antes de definir una estructura propia.
+                </p>
+            </div>
+        </section>
+
+        <!-- cuarto bloque => card sorting -->
+        <section id="card-sorting" class="project-figma container pb-5">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-8 order-2 order-lg-1">
+                    <h2 class="section-title mb-3">Card Sorting</h2>
+                    <p>
+                        Para validar la agrupación de contenidos, realicé un card sorting con tres personas.
+                        A partir de esa dinámica se pudieron observar patrones comunes, categorías que se
+                        repetían y elementos que generaban más dudas.
+                    </p>
+                    <p class="mb-0">
+                        Esta etapa fue clave para entender mejor cómo organizar la navegación principal y qué
+                        contenidos debían mantenerse juntos o separarse.
+                    </p>
+                </div>
+
+                <div class="col-12 col-lg-4 order-1 order-lg-2">
+                    <button type="button" class="image-button p-0 border-0 bg-transparent" data-bs-toggle="modal"
+                        data-bs-target="#modalCardSortingAldereteSports"
+                        aria-label="Ampliar card sorting del proyecto Alderete Sports">
+                        <img src="../assets/img/alderete_sports/card_sorting_alderete_sports.png"
+                            class="img-fluid rounded shadow-sm project-image"
+                            alt="Card sorting realizado para el proyecto Alderete Sports">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- quinto bloque => sitemap -->
+        <section id="sitemap" class="project-overview container pb-5">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-6">
+                    <button type="button" class="image-button p-0 border-0 bg-transparent" data-bs-toggle="modal"
+                        data-bs-target="#modalSitemapAldereteSportsDos"
+                        aria-label="Ampliar sitemap del proyecto Alderete Sports">
+                        <img src="../assets/img/alderete_sports/alderete_sports.jpg"
+                            class="img-fluid rounded shadow-sm project-image"
+                            alt="Mapa de navegación del proyecto Alderete Sports">
+                    </button>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h2 class="section-title mb-3">Sitemap</h2>
+                    <p>
+                        Con la información obtenida en las etapas previas, definí un sitemap que organiza
+                        el sitio en secciones principales como Inicio, Productos, Carro y Pago, Mi Cuenta,
+                        Empresas, Ayuda y Nosotros.
+                    </p>
+                    <p class="mb-0">
+                        Esta estructura permitió visualizar la jerarquía del contenido y dejar más claro
+                        el lugar que ocupa cada grupo dentro de la experiencia general.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- sexto bloque => wireflow -->
+        <section id="wireflow" class="project-video container pb-5">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-6">
+                    <h2 class="section-title mb-3">Wireflow</h2>
+                    <p>
+                        Como cierre del proceso, desarrollé un wireflow para representar el flujo principal
+                        de búsqueda, selección de producto, carro de compras y pago dentro del sitio.
+                    </p>
+                    <p>
+                        Este paso ayudó a traducir la arquitectura propuesta en un recorrido más concreto,
+                        conectando estructura, navegación y acción del usuario.
+                    </p>
+
+                    <a class="btn btn-dark" href="../assets/video/alderete_sports/prototipo_alderete_sports.mp4"
+                        target="_blank" rel="noopener noreferrer">Ver video</a>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="video-preview">
+                        <button type="button" class="image-button p-0 border-0 bg-transparent" data-bs-toggle="modal"
+                            data-bs-target="#modalWireflowAldereteSports"
+                            aria-label="Ampliar wireflow del proyecto Alderete Sports">
+                            <img src="../assets/img/alderete_sports/figma_alderete_sports.jpg"
+                                class="img-fluid rounded shadow-sm"
+                                alt="Vista previa del wireflow del proyecto Alderete Sports">
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- séptimo bloque => cierre -->
+        <section id="cierre" class="project-learning container pb-5">
+            <div class="project-highlight p-4 p-lg-5">
+                <h2 class="section-title mb-3">Aprendizaje</h2>
+                <p>
+                    Este proyecto me ayudó a entender que la arquitectura de la información no consiste solo
+                    en ordenar contenidos, sino en tomar decisiones que impactan directamente en la claridad
+                    del recorrido, en la comprensión del sitio y en la experiencia de quien navega.
+                </p>
+                <p class="mb-0">
+                    Validar agrupaciones y traducirlas a una estructura concreta me permitió trabajar la
+                    navegación desde una base más pensada antes de pasar a una propuesta visual o de desarrollo.
+                </p>
+            </div>
+        </section>
+
+        <!-- octavo bloque => Documento final PDF -->
+        <section id="documento-final" class="project-closing container pb-5">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-7">
+                    <h2 class="section-title mb-3">Documento final</h2>
+                    <p>
+                        En esta página resumí las etapas principales del proyecto, pero el desarrollo
+                        completo incluye el análisis de referentes, inventario de contenidos, card sorting,
+                        definición del sitemap y el wireflow final.
+                    </p>
+                    <p class="mb-0">
+                        El documento en PDF que esta en el link, reúne el proceso completo y deja con más detalle las decisiones
+                        tomadas durante la construcción de la arquitectura de la información.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <div class="project-card p-4 h-100 d-flex flex-column justify-content-center">
+                        <h3 class="h5 mb-3">Archivo del proyecto</h3>
+                        <a class="btn btn-outline-dark"
+                            href="../assets/docs/alderete_sports/Modulo_4_Arquitectura_de_la_Informacin.pdf"
+                            target="_blank" rel="noopener noreferrer">
+                            Ver PDF completo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- INICIO MODALES IMAGENES => para ampliar las imágenes sin salir de la web -->
+        <section>
+            <!-- Modal Mapa del Sitio diseño Figma -->
+            <div class="modal fade" id="modalSitemapAldereteSports" tabindex="-1"
+                aria-labelledby="modalSitemapAldereteSportsLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalSitemapAldereteSportsLabel">Sitemap del proyecto Alderete
+                                Sports</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="../assets/img/alderete_sports/prototipo_alderete_sports.png" class="img-fluid"
+                                alt="Sitemap del proyecto Alderete Sports">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Card Sorting -->
+            <div class="modal fade" id="modalCardSortingAldereteSports" tabindex="-1"
+                aria-labelledby="modalCardSortingAldereteSportsLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalCardSortingAldereteSportsLabel">Card Sorting del proyecto
+                                Alderete Sports</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body
+">
+                            <img src="../assets/img/alderete_sports/card_sorting_alderete_sports.png" class="img-fluid"
+                                alt="Card Sorting del proyecto Alderete Sports">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal estructura de navegación -->
+            <div class="modal fade" id="modalSitemapAldereteSportsDos" tabindex="-1"
+                aria-labelledby="modalSitemapAldereteSportsDosLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalSitemapAldereteSportsDosLabel">Sitemap del proyecto
+                                Alderete Sports</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body
+">
+                            <img src="../assets/img/alderete_sports/alderete_sports.jpg" class="img-fluid"
+                                alt="Sitemap del proyecto Alderete Sports">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Wireflow -->
+            <div class="modal fade" id="modalWireflowAldereteSports" tabindex="-1"
+                aria-labelledby="modalWireflowAldereteSportsLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalWireflowAldereteSportsLabel">Wireflow del proyecto Alderete
+                                Sports</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="../assets/img/alderete_sports/figma_alderete_sports.jpg" class="img-fluid"
+                                alt="Wireflow del proyecto Alderete Sports">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN TODOS LOS MODALES DE LAS IMAGENES -->
+    </main>
+    <br><br>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light mt-auto">
+        <div class="container py-2">
+            <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
+                <p class="mb-0">&copy; 2026 Kathy Alderete</p>
+                <a class="btn btn-outline-light btn-sm d-flex align-items-center gap-2"
+                    href="https://github.com/KathyAlde21" target="_blank" rel="noopener">
+                    <img src="../assets/img/github.png" alt="GitHub Logo" width="20" height="20" class="icon-github"
+                        loading="lazy">
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- Script principal -->
+    <script defer src="../assets/js/script.js"></script>
+</body>
+
+</html>

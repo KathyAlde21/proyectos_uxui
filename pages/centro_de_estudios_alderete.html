@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos UX/UI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://i.ytimg.com">
+    <link rel="preconnect" href="https://www.youtube.com">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <!-- Izquierda -->
+            <a class="navbar-brand" href="#">Proyectos UX/UI</a>
+            <!-- Botón hamburguesa alineado a la derecha -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú alineado a la derecha al expandir -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="#bienvenido" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./centro_de_estudios_alderete.html">Centro de Estudios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./alderete_sports.html">Alderete Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pp3">pp3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pp4">pp4</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- target="_blank" rel="noopener noreferrer" se uso para generar una página nueva con el enlace -->
+                        <a class="nav-link" href="https://github.com/KathyAlde21" target="_blank"
+                            rel="noopener noreferrer">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div style="height: 56px;"></div> <!-- Espacio para navbar fija -->
+
+    <!-- derivan a cada segmento, para facilitar al usuario la elección -->
+    <section class="project-subnav">
+        <div class="container">
+            <nav class="project-meta" aria-label="Navegación interna del proyecto">
+                <a href="#resumen" class="project-tag">Resumen</a>
+                <a href="#moodboard" class="project-tag">Moodboard</a>
+                <a href="#figma" class="project-tag">Prototipo</a>
+                <a href="#video" class="project-tag">Video</a>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Contenido principal del proyecto -->
+    <main class="project-main">
+
+        <!-- primer bloque => indica de que se trata -->
+        <section class="project-hero container py-5">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-6">
+                    <p class="project-kicker mb-2">Proyecto UX/UI · Módulo 3</p>
+                    <h1 class="project-title mb-3">Centro de Estudios Alderete</h1>
+                    <p class="project-lead mb-4">
+                        Prototipo de baja fidelidad para una web pública con noticias e intranet, pensado para informar
+                        a visitantes y facilitar la comunicación interna.
+                    </p>
+                </div>
+                <!-- prototipo de baja fidelidad realizado a mano, aumenta de tamaño con modal -->
+                <div class="col-12 col-lg-6">
+                    <button type="button" class="image-button p-0 border-0 bg-transparent" data-bs-toggle="modal"
+                        data-bs-target="#modalWebAlderete">
+                        <img src="../assets/img/centro_estudios_alderete/web_alderete.png"
+                            class="img-fluid rounded shadow-sm project-image"
+                            alt="Vista general del proyecto Centro de Estudios Alderete con sus tres pantallas principales">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- segundo bloque => muestra resumen del proyecto y el objetivo -->
+        <section id="resumen" class="project-overview container pb-5">
+            <div class="row g-4">
+                <div class="col-12 col-lg-7">
+                    <h2 class="section-title mb-3">Resumen</h2>
+                    <p>
+                        Este proyecto propone una solución web para un centro de estudios con dos contextos principales:
+                        una parte pública para visitantes y una intranet para usuarios internos. La propuesta considera
+                        información institucional, contacto, noticias y comunicación organizada por temáticas.
+                    </p>
+                    <p>
+                        Las pantallas definidas fueron una landing con formulario y sección “Nosotros”, una vista de
+                        noticias
+                        con acceso a login y una intranet tipo foro/mensajes con accesos a calendario y archivos.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <div class="project-card p-4 h-100">
+                        <h3 class="h5 mb-3">Objetivo</h3>
+                        <p class="mb-0">
+                            Diseñar una solución inicial que entregue información institucional, mantenga informada a la
+                            comunidad mediante novedades y permita acceso a una intranet con mensajería y accesos
+                            internos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- tercer bloque => indica los tres pasos para llegar al prototipado -->
+        <section class="project-process container pb-5">
+            <h2 class="section-title mb-4">Proceso</h2>
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project-card h-100 p-4">
+                        <h3 class="h5">Ideación</h3>
+                        <p class="mb-0">
+                            Se definió una propuesta con parte pública e intranet, considerando necesidades distintas
+                            para
+                            visitantes y usuarios internos.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project-card h-100 p-4">
+                        <h3 class="h5">Moodboard</h3>
+                        <p class="mb-0">
+                            La dirección visual se orientó a una interfaz confiable, institucional, clara, ordenada y
+                            accesible,
+                            con referentes para landing, noticias e intranet.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project-card h-100 p-4">
+                        <h3 class="h5">Prototipo</h3>
+                        <p class="mb-0">
+                            Las tres pantallas fueron transferidas a Figma en baja fidelidad, manteniendo flujo y
+                            jerarquía de la información.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- cuarto bloque => muestra el moodboard y como se llego a su construcción, imagen aumenta de tamaño con modal -->
+        <section id="moodboard" class="project-moodboard container pb-5">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-6">
+                    <button type="button" class="image-button p-0 border-0 bg-transparent" data-bs-toggle="modal"
+                        data-bs-target="#modalMoodboard">
+                        <img src="../assets/img/centro_estudios_alderete/moodboard.png"
+                            class="img-fluid rounded shadow-sm"
+                            alt="Moodboard del proyecto Centro de Estudios Alderete con referentes para landing, noticias e intranet">
+                    </button>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h2 class="section-title mb-3">Moodboard y referentes</h2>
+                    <p>
+                        El moodboard reunió referentes de sitios institucionales, páginas de noticias con cards y
+                        plataformas
+                        colaborativas tipo Slack, Teams o Discord, buscando una navegación consistente y componentes
+                        simples.
+                    </p>
+                    <p class="mb-0">
+                        La propuesta visual se apoyó en tipografía sans serif, paleta neutra con acento institucional y
+                        énfasis
+                        en legibilidad, contraste y separación clara entre bloques.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- quinto bloque => muestra el prototipo en Figma -->
+        <section id="figma" class="project-figma container pb-5">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-6 order-2 order-lg-1">
+                    <h2 class="section-title mb-3">Prototipo en Figma</h2>
+                    <p>
+                        El prototipo low-fi permitió visualizar con más claridad la landing, la sección de noticias con
+                        acceso
+                        a intranet y la vista interna de foro/mensajes.
+                    </p>
+                    <p class="mb-0">
+                        También ayudó a revisar jerarquía, navegación y organización antes de pasar a una etapa de mayor
+                        desarrollo visual o técnico.
+                    </p>
+                </div>
+                <!-- imagen aumenta de tamaño con modal -->
+                <div class="col-12 col-lg-6 order-1 order-lg-2">
+                    <button type="button" class="image-button p-0 border-0 bg-transparent" data-bs-toggle="modal"
+                        data-bs-target="#modalFigma">
+                        <img src="../assets/img/centro_estudios_alderete/prototipo_baja_fidelidad_figma.png"
+                            class="img-fluid rounded shadow-sm"
+                            alt="Prototipo de baja fidelidad en Figma del Centro de Estudios Alderete">
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- sexto bloque => muestra el video del flujo en figma -->
+        <section id="video" class="project-video container pb-5">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-4">
+                    <div class="video-preview">
+                        <img src="../assets/img/centro_estudios_alderete/prototipo_pag1_figma.png"
+                            class="img-fluid rounded shadow-sm"
+                            alt="Vista previa del prototipo de baja fidelidad del Centro de Estudios Alderete">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7">
+                    <h2 class="section-title mb-3">Video del flujo</h2>
+                    <p>
+                        Registré el flujo del prototipo de figma en video para observar mejor la secuencia
+                        entre pantallas y revisar la navegación de una forma más cercana a la
+                        interacción real.
+                    </p>
+                    <p>
+                        Este registro me ayudó a mirar la baja fidelidad como una etapa útil
+                        para validar estructura y recorrido antes de desarrollar.
+                    </p>
+                    <a class="btn btn-dark"
+                        href="../assets/video/centro_estudios_alderete/prototipo_baja_fidelidad_figma.mp4"
+                        target="_blank" rel="noopener noreferrer">
+                        Ver video
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- séptimo bloque => muestra los aprendizajes del proyecto -->
+        <section id="aprendizaje" class="project-learning container pb-5">
+            <h2 class="section-title mb-3">Aprendizaje</h2>
+            <p>
+                “Prototipar no es construir menos, sino pensar antes de construir.”
+            </p>
+            <p>
+                Este proyecto me ayudó a valorar la baja fidelidad como una etapa real del proceso.
+                La evaluación heurística también mostró que el flujo base funcionaba, pero necesitaba
+                mayor claridad de navegación y mejor feedback en formularios y acciones internas.
+            </p>
+        </section>
+
+        <!-- octavo bloque => muestra el cierre del proyecto -->
+        <section id="cierre" class="project-closing container pb-5">
+            <h2 class="section-title mb-3">Cierre del proyecto</h2>
+            <p>
+                Este proyecto me permitió reunir ideación, referentes visuales, prototipado
+                de baja fidelidad y reflexión sobre la experiencia antes de desarrollar.
+            </p>
+            <p>
+                En el siguiente documento se puede revisar el trabajo completo presentado
+                como resultado final del módulo.
+            </p>
+            <a class="btn btn-outline-dark" href="../assets/docs/centro_estudios_alderete/m3_notion_cdu_alderete.pdf"
+                target="_blank" rel="noopener noreferrer">
+                Ver documento final
+            </a>
+        </section>
+
+        <!-- INICIO MODALES IMAGENES => para ampliar las imágenes sin salir de la web -->
+        <section>
+            <div class="modals-container">
+                <!-- modal imagen web alderete -->
+                <div class="modal fade" id="modalWebAlderete" tabindex="-1" aria-labelledby="modalWebAldereteLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content bg-dark border-0">
+                            <div class="modal-header border-0">
+                                <h2 class="modal-title fs-5 text-white" id="modalWebAldereteLabel">
+                                    Centro de Estudios Alderete
+                                </h2>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                    aria-label="Cerrar"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../assets/img/centro_estudios_alderete/web_alderete.png"
+                                    class="img-fluid rounded"
+                                    alt="Vista ampliada del proyecto Centro de Estudios Alderete">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin modal web alderete -->
+                <!-- modal imagen moodboard -->
+                <div class="modal fade" id="modalMoodboard" tabindex="-1" aria-labelledby="modalMoodboardLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content bg-dark border-0">
+                            <div class="modal-header border-0">
+                                <h2 class="modal-title fs-5 text-white" id="modalMoodboardLabel">
+                                    Moodboard del proyecto Centro de Estudios Alderete
+                                </h2>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                    aria-label="Cerrar"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../assets/img/centro_estudios_alderete/moodboard.png"
+                                    class="img-fluid rounded"
+                                    alt="Vista ampliada del moodboard del proyecto Centro de Estudios Alderete">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin modal moodboard -->
+                <!-- modal imagen prototipo figma -->
+                <div class="modal fade" id="modalFigma" tabindex="-1" aria-labelledby="modalFigmaLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content bg-dark border-0">
+                            <div class="modal-header border-0">
+                                <h2 class="modal-title fs-5 text-white" id="modalFigmaLabel">
+                                    Prototipo de baja fidelidad en Figma del Centro de Estudios Alderete
+                                </h2>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                    aria-label="Cerrar"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="../assets/img/centro_estudios_alderete/prototipo_baja_fidelidad_figma.png"
+                                    class="img-fluid rounded"
+                                    alt="Vista ampliada del prototipo de baja fidelidad en Figma del Centro de Estudios Alderete">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin modal prototipo figma -->
+            </div>
+        </section>
+        <!-- FIN TODOS LOS MODALES DE LAS IMAGENES -->
+    </main>
+    <br><br>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light mt-auto">
+        <div class="container py-2">
+            <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
+                <p class="mb-0">&copy; 2026 Kathy Alderete</p>
+                <a class="btn btn-outline-light btn-sm d-flex align-items-center gap-2"
+                    href="https://github.com/KathyAlde21" target="_blank" rel="noopener">
+                    <img src="../assets/img/github.png" alt="GitHub Logo" width="20" height="20" class="icon-github"
+                        loading="lazy">
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- Script principal -->
+    <script defer src="../assets/js/script.js"></script>
+</body>
+
+</html>
