@@ -36,10 +36,10 @@
                         <a class="nav-link" href="./pages/alderete_sports.html">Alderete Sports</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#pp3">pp3</a>
+                        <a class="nav-link" href="./pages/biblioteca_alderete.html">Biblioteca Alderete</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#pp4">pp4</a>
+                        <a class="nav-link" href="./pages/nutriapp_kalde.html">NutriApp KAlde</a>
                     </li>
                     <li class="nav-item">
                         <!-- target="_blank" rel="noopener noreferrer" se uso para generar una página nueva con el enlace -->
@@ -52,11 +52,139 @@
     </nav>
     <div style="height: 56px;"></div> <!-- Espacio para navbar fija -->
 
-    <!-- Estructura del proyecto -->
-    <main class="container my-5">
-        <header>
-            <h1>Hola Mundo!!!</h1>
-        </header>
+    <!-- Estructura -->
+    <main class="home-page">
+        <!-- primer bloque => presentacion del proyecto -->
+        <section class="home-hero container py-5">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-7">
+                    <p class="home-kicker mb-2">Portafolio de proyectos del curso</p>
+                    <h1 class="home-title mb-3">Proyectos UX/UI</h1>
+                    <p class="home-lead mb-4">
+                        Reúno aquí una selección de proyectos desarrollados durante mi formación en UX/UI,
+                        enfocados en prototipado, arquitectura de la información, sistemas visuales e interacción.
+                    </p>
+                    <a class="btn btn-dark" href="#proyectos">Ver proyectos</a>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <div class="home-box">
+                        <h2 class="h5 mb-3">Enfoque de esta página</h2>
+                        <p class="mb-0">
+                            Mi formación en UX/UI complementó mi perfil de desarrolladora al enseñarme
+                            a pensar antes de construir, priorizando al usuario, la claridad de los flujos
+                            y una arquitectura de la información más sólida.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- segundo bloque => contexto -->
+        <section class="home-context container pb-5">
+            <div class="row">
+                <div class="col-12 col-lg-9">
+                    <h2 class="home-section-title mb-3">Contexto</h2>
+                    <p class="mb-0">
+                        Estos proyectos representan distintas formas de trabajar UX/UI como complemento al
+                        desarrollo:
+                        desde la organización de contenidos y la arquitectura de la información, hasta prototipos
+                        interactivos, guías visuales y propuestas centradas en la experiencia de usuario.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- tercer bloque => proyectos -->
+        <section id="proyectos" class="home-projects container pb-5">
+            <h2 class="home-section-title mb-4">Proyectos</h2>
+            <div class="row g-4">
+                <!-- Alderete Sports -->
+                <div class="col-12 col-md-6">
+                    <article class="home-card h-100">
+                        <img src="./assets/img/alderete_sports/prototipo_alderete_sports.png" class="home-card-image"
+                            alt="Vista general del proyecto Alderete Sports">
+                        <h3 class="h4 mb-2">Alderete Sports</h3>
+                        <p class="mb-3">
+                            Arquitectura de la información para un e-commerce deportivo.
+                        </p>
+                        <div class="home-tags mb-3">
+                            <span class="home-tag">Benchmarking</span>
+                            <span class="home-tag">Card Sorting</span>
+                            <span class="home-tag">Sitemap</span>
+                        </div>
+                        <a class="btn btn-outline-dark" href="./pages/alderete_sports.html">Ver proyecto</a>
+                    </article>
+                </div>
+
+                <!-- Centro de Estudios Alderete -->
+                <div class="col-12 col-md-6">
+                    <article class="home-card h-100">
+                        <img src="./assets/img/centro_estudios_alderete/web_alderete.png" class="home-card-image"
+                            alt="Vista general del proyecto Centro de Estudios Alderete">
+                        <h3 class="h4 mb-2">Centro de Estudios Alderete</h3>
+                        <p class="mb-3">
+                            Prototipo de baja fidelidad para web pública, noticias e intranet.
+                        </p>
+                        <div class="home-tags mb-3">
+                            <span class="home-tag">Moodboard</span>
+                            <span class="home-tag">Low-fi</span>
+                            <span class="home-tag">Heurística</span>
+                        </div>
+                        <a class="btn btn-outline-dark" href="./pages/centro_de_estudios_alderete.html">Ver
+                            proyecto</a>
+                    </article>
+                </div>
+
+                <!-- Biblioteca Alderete -->
+                <div class="col-12 col-md-6">
+                    <article class="home-card h-100">
+                        <img src="./assets/img/biblioteca_alderete/vista_general.jpg" class="home-card-image"
+                            alt="Vista general del proyecto Biblioteca Alderete">
+                        <h3 class="h4 mb-2">Biblioteca Alderete</h3>
+                        <p class="mb-3">
+                            Prototipo interactivo en Figma con grillas, hover y cambios visuales.
+                        </p>
+                        <div class="home-tags mb-3">
+                            <span class="home-tag">Grillas</span>
+                            <span class="home-tag">Hover</span>
+                            <span class="home-tag">Interacción</span>
+                        </div>
+                        <a class="btn btn-outline-dark" href="./pages/biblioteca_alderete.html">Ver proyecto</a>
+                    </article>
+                </div>
+
+                <!-- NutriApp KAlde -->
+                <div class="col-12 col-md-6">
+                    <article class="home-card h-100">
+                        <img src="./assets/img/nutriapp_kalde/prototipo_atomic_design.jpg" class="home-card-image"
+                            alt="Vista general del proyecto NutriApp KAlde">
+                        <h3 class="h4 mb-2">NutriApp KAlde</h3>
+                        <p class="mb-3">
+                            Basado en Atomic Design, muestra el proceso de estructuración de los componentes.
+                        </p>
+                        <div class="home-tags mb-3">
+                            <span class="home-tag">Atomic Design</span>
+                            <span class="home-tag">Sistema visual</span>
+                            <span class="home-tag">Componentes</span>
+                        </div>
+                        <a class="btn btn-outline-dark" href="./pages/nutriapp_kalde.html">Ver proyecto</a>
+                    </article>
+                </div>
+            </div>
+            <!-- fin proyectos -->
+        </section>
+
+        <!-- link al repositorio en GitHub -->
+        <section class="home-repo container pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <a class="btn btn-primary" href="https://github.com/KathyAlde21/proyectos_uxui" target="_blank"
+                        rel="noopener noreferrer">
+                        Ver repositorio en GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
@@ -66,7 +194,7 @@
                 <p class="mb-0">&copy; 2026 Kathy Alderete</p>
                 <a class="btn btn-outline-light btn-sm d-flex align-items-center gap-2"
                     href="https://github.com/KathyAlde21" target="_blank" rel="noopener">
-                    <img src="./assets/img/github.png" alt="GitHub Logo" width="20" height="20" class="icon-github"
+                    <img src="../assets/img/github.png" alt="GitHub Logo" width="20" height="20" class="icon-github"
                         loading="lazy">
                     <span>GitHub</span>
                 </a>

@@ -1,7 +1,6 @@
 **_<h1 align="center">:vulcan_salute: Proyectos Curso UX/UI :computer:</h1>_**
 
-DESCRIPCION DEL PROPOSITO DE ESTE REPOSITORIO Y A CONTINUACION LA ESTRUCTURA Y DESPUES CADA UNA DE LAS PAGINAS Y SU DESCRIPCION.
-ACA PONER LINK GENERAL DEL PROYECTO
+Reúno aquí una selección de proyectos desarrollados durante mi formación en UX/UI, enfocados en prototipado, arquitectura de la información, sistemas visuales e interacción.
 Puedes visitar la página en [GitHub Pages - Proyectos Curso UX/UI](https://kathyalde21.github.io/pppp1/)
 
 <!------------------------------------------------------------------------------------------------ -->
@@ -15,62 +14,86 @@ Puedes visitar la página en [GitHub Pages - Proyectos Curso UX/UI](https://kath
 ├── 📁pages
 │   ├── 🟧centro_de_estudios_alderete.html
 │   ├── 🟧alderete_sports.html
-│   ├── 🟧index.html
+│   ├── 🟧biblioteca_alderete.html
+│   ├── 🟧nutriapp_kalde.html
 │   └── 🟧index.html
 └── 📁assets
     ├── 📁css
     │   └── 🟦style.css
     ├── 📁docs
     |   ├── 📁centro_estudios_alderete
-    |   |   └── 🟧pdf.pdf
+    |   |   └── 🟧m3_notion_cdu_alderete.pdf
     |   ├── 📁alderete_sports
-    |   |   └── 🟧pdf.pdf
-    |   ├── 📁centro_estudios_alderete
-    |   |   └── 🟧pdf.pdf
-    |   ├── 📁centro_estudios_alderete
-    |   |   └── 🟧pdf.pdf
-    |   └── 📁centro_estudios_alderete
-    |       └── 🟧pdf.pdf
+    |   |   └── 🟧m4_arquitectura_de_la_informacion.pdf
+    |   ├── 📁biblioteca_alderete
+    |   |   └── 🟧pototipo_interactivo_biblioteca.pdf
+    |   └── 📁nutriapp_kalde
+    |       └── 🟧atomic_design.pdf
     ├── 📁img
+    |   ├── 🖼️github.png
     |   ├── 📁centro_estudios_alderete
-    |   │   └── 🖼️xx.png
+    |   |   ├── 🖼️moodboard.png
+    |   |   ├── 🖼️prototipo_baja_fidelidad_figma.png
+    |   |   ├── 🖼️prototipo_pag1_figma.png
+    |   │   └── 🖼️web_alderete.png
     |   ├── 📁alderete_sports
-    |   │   └── 🖼️xx.png
-    |   ├── 📁centro_estudios_alderete
-    |   │   └── 🖼️xx.png
-    |   └── 📁centro_estudios_alderete
-    |       └── 🖼️xx.png
+    |   |   ├── 🖼️alderete_sports.jpg
+    |   |   ├── 🖼️card_sorting_alderete_sports.png
+    |   |   ├── 🖼️figma_alderete_sports.jpg
+    |   │   └── 🖼️prototipo_alderete_sports.png
+    |   ├── 📁biblioteca_alderete
+    |   |   ├── 🖼️pantalla_2_home_libros_1.jpg
+    |   |   ├── 🖼️pantalla_2_home_libros_2.jpg
+    |   |   ├── 🖼️pantalla_3_detalle.jpg
+    |   |   ├── 🖼️prototipo_p2-1.jpg
+    |   |   ├── 🖼️prototipo_p2-2.jpg
+    |   |   ├── 🖼️prototipo_p3-1.jpg
+    |   |   ├── 🖼️prototipo_p3-2.jpg
+    |   |   ├── 🖼️vista_general.jpg
+    |   │   └── 🖼️vista_general_grillas_columnas.jpg
+    |   └── 📁nutriapp_kalde
+    |   |   ├── 🖼️nutriapp_kalde.jpg
+    |   │   └── 🖼️prototipo_atomic_design.jpg
     ├── 📁js
     |   └── 🟨script.js
     └── 📁videos
         ├── 📁centro_estudios_alderete
-        │   └── 🟦video.video
+        │   └── 🟦prototipo_baja_fidelidad_figma.mp4
         ├── 📁alderete_sports
-        │   └── 🟦video.video
-        ├── 📁centro_estudios_alderete
-        │   └── 🟦video.video
-        ├── 📁centro_estudios_alderete
-        │   └── 🟦video.video
-        └── 📁centro_estudios_alderete
-            └── 🟦video.video
+        │   └── 🟦prototipo_alderete_sports.mp4
+        ├── 📁biblioteca_alderete
+        │   └── 🟦prototipo_animado_biblioteca.mp4
+        └── 📁nutriapp_kalde
+            └── 🟦prototipo_atomic_design.mp4
 ```
 
 <hr style="border: none; height: 2px; background-color: blue; width: 80%;">
 <!-- ---------------------------------------------------------------------------------------------- -->
 
-<hr style="border: none; height: 2px; background-color: blue; width: 80%;">
-
-**<h2 align="center">&#128204;Proyecto Web 1</h2>**
+**<h2 align="center">&#128204;Centro de Estudios Alderete</h2>**
 
 Puedes visitar la página en [GitHub Pages - Proyectos 1](https://kathyalde21.github.io/pppp1/)
 
 <hr style="border: none; height: 2px; background-color: blue; width: 80%;">
 <!-- ---------------------------------------------------------------------------------------------- -->
-<hr style="border: none; height: 2px; background-color: blue; width: 80%;">
 
-**<h2 align="center">&#128204;Proyecto Web 2</h2>**
+**<h2 align="center">&#128204;Alderete Sports</h2>**
 
 Puedes visitar la página en [GitHub Pages - Proyectos 2](https://kathyalde21.github.io/pppp1/)
+
+<hr style="border: none; height: 2px; background-color: blue; width: 80%;">
+<!-- ---------------------------------------------------------------------------------------------- -->
+
+**<h2 align="center">&#128204;Biblioteca Alderete</h2>**
+
+Puedes visitar la página en [GitHub Pages - Proyectos 3](https://kathyalde21.github.io/pppp1/)
+
+<hr style="border: none; height: 2px; background-color: blue; width: 80%;">
+<!-- ---------------------------------------------------------------------------------------------- -->
+
+**<h2 align="center">&#128204;NutriApp KAlde</h2>**
+
+Puedes visitar la página en [GitHub Pages - Proyectos 4](https://kathyalde21.github.io/pppp1/)
 
 <hr style="border: none; height: 2px; background-color: blue; width: 80%;">
 <!-- ---------------------------------------------------------------------------------------------- -->

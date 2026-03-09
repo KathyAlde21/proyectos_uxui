@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos UX/UI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://i.ytimg.com">
+    <link rel="preconnect" href="https://www.youtube.com">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <!-- Izquierda -->
+            <a class="navbar-brand" href="#">Proyectos UX/UI</a>
+            <!-- Botón hamburguesa alineado a la derecha -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú alineado a la derecha al expandir -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="#bienvenido" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./centro_de_estudios_alderete.html">Centro de Estudios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./alderete_sports.html">Alderete Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./biblioteca_alderete.html">Biblioteca Alderete</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./nutriapp_kalde.html">NutriApp KAlde</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- target="_blank" rel="noopener noreferrer" se uso para generar una página nueva con el enlace -->
+                        <a class="nav-link" href="https://github.com/KathyAlde21" target="_blank"
+                            rel="noopener noreferrer">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div style="height: 56px;"></div> <!-- Espacio para navbar fija -->
+
+    <!-- derivan a cada segmento, para facilitar al usuario la elección -->
+    <section class="project-subnav">
+        <div class="container">
+            <nav class="project-meta" aria-label="Navegación interna del proyecto">
+                <a href="#contexto" class="project-tag">Contexto</a>
+                <a href="#grillas" class="project-tag">Grillas</a>
+                <a href="#pantallas" class="project-tag">Pantallas</a>
+                <a href="#video" class="project-tag">Video</a>
+                <a href="#documento" class="project-tag">Documento</a>
+            </nav>
+        </div>
+    </section>
+
+    <main class="project-main">
+        <!-- presentacion proyecto -->
+        <section class="project-hero container py-5">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-6">
+                    <p class="project-kicker mb-2">Proyecto UX/UI · Prototipo interactivo</p>
+                    <h1 class="project-title mb-3">Biblioteca Alderete</h1>
+                    <p class="project-lead mb-4">
+                        Prototipo interactivo desarrollado en Figma para una biblioteca digital,
+                        con foco en uso de grillas, organización visual e interacciones hover
+                        entre una pantalla principal y una vista de detalle.
+                    </p>
+                </div>
+        
+                <div class="col-12 col-lg-6">
+                    <button type="button" class="image-button p-0 border-0 bg-transparent" data-bs-toggle="modal"
+                        data-bs-target="#modalVideoImagen">
+                        <img src="../assets/img/biblioteca_alderete/vista_general.jpg"
+                            class="img-fluid rounded shadow-sm project-image"
+                            alt="Vista general del prototipo Biblioteca Alderete en Figma">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- primer bloque => contexto del proyecto -->
+        <section id="contexto" class="project-overview container pb-5">
+            <div class="row g-4">
+                <div class="col-12 col-lg-7">
+                    <h2 class="section-title mb-3">Contexto</h2>
+                    <p>
+                        Este proyecto consistió en desarrollar un prototipo interactivo en Figma para una
+                        biblioteca digital, trabajando la organización visual de las pantallas y la interacción
+                        entre una vista principal y una vista de detalle.
+                    </p>
+                    <p class="mb-0">
+                        El ejercicio se centró en la aplicación de grillas, en la distribución de los elementos
+                        dentro de la interfaz y en la incorporación de cambios visuales mediante hover en distintas
+                        áreas del
+                        prototipo.
+                    </p>
+                </div>
+
+                <div class="col-12 col-lg-5">
+                    <div class="project-card p-4 h-100">
+                        <h3 class="h5 mb-3">Enfoque</h3>
+                        <p class="mb-0">
+                            Más que diseñar una interfaz final acabada, el objetivo fue practicar estructura,
+                            jerarquía visual y respuesta interactiva en un prototipo de baja complejidad,
+                            pero con decisiones claras de composición.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- segundo bloque => GRILLAS Y COLUMNAS -->
+        <!-- contexto uso de grillas dentro del prototipo figma -->
+        <section id="grillas" class="project-moodboard container pb-5">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-6">
+                    <button type="button" class="image-button p-0 border-0 bg-transparent" data-bs-toggle="modal"
+                        data-bs-target="#modalGrillas">
+                        <img src="../assets/img/biblioteca_alderete/vista_general_grillas_columnas.jpg"
+                            class="img-fluid rounded shadow-sm project-image"
+                            alt="Vista general con grillas y columnas del prototipo Biblioteca Alderete">
+                    </button>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h2 class="section-title mb-3">Grillas y estructura</h2>
+                    <p>
+                        Una parte importante del trabajo fue aplicar una base de grilla para ordenar el contenido
+                        dentro de las pantallas, manteniendo coherencia entre márgenes, separación de bloques
+                        y distribución de los elementos.
+                    </p>
+                    <p class="mb-0">
+                        Esta etapa me ayudó a visualizar mejor cómo sostener la composición de una interfaz móvil
+                        antes de enfocarme en detalles más visuales o decorativos.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Bloque imagenes vista general y grillas/columnas -->
+        <section class="project-gallery container pb-5">
+            <div class="row g-4">
+                <div class="col-12 col-lg-6">
+                    <article class="gallery-card h-100">
+                        <div class="double-image-row ">
+                            <button type="button" class="image-button p-0 border-0 bg-transparent half-preview"
+                                data-bs-toggle="modal" data-bs-target="#modalHomeGrillaColumna">
+                                <img class="img-grillas-columnas"
+                                    src="../assets/img/biblioteca_alderete/pantalla_2_home_libros_1.jpg"
+                                    alt="Pantalla home con grillas y columnas en Biblioteca Alderete">
+                            </button>
+                            <button type="button" class="image-button p-0 border-0 bg-transparent half-preview"
+                                data-bs-toggle="modal" data-bs-target="#modalHomeGrillaColumnaH">
+                                <img class="img-grillas-columnas"
+                                    src="../assets/img/biblioteca_alderete/pantalla_2_home_libros_2.jpg"
+                                    alt="Pantalla libro ambos colores en evento hover Biblioteca Alderete">
+                            </button>
+                        </div>
+                        <h3 class="h5 mt-3">Home con grillas y columnas</h3>
+                        <p>
+                            Vista de la pantalla principal mostrando la aplicación de grillas,
+                            columnas, márgenes y distribución del contenido, junto con una variación
+                            del estado hover.
+                        </p>
+                    </article>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <article class="gallery-card h-100">
+                        <button type="button" class="image-button p-0 border-0 bg-transparent" data-bs-toggle="modal"
+                            data-bs-target="#modalDetalleGrillaColumna">
+                            <img class="img-grillas-columnas"
+                                src="../assets/img/biblioteca_alderete/pantalla_3_detalle.jpg"
+                                alt="Pantalla de detalle con grillas y columnas en Biblioteca Alderete">
+                        </button>
+                        <h3 class="h5 mt-3">Detalle con grillas y columnas</h3>
+                        <p>
+                            Vista de la pantalla de detalle donde también se aprecia
+                            la estructura de columnas y la organización de los elementos.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- tercer bloque => PROTOTIPO FIGMA -->
+        <!-- contexto pantallas -->
+        <section id="pantallas" class="project-gallery container pt-3 pb-5">
+            <h2 class="section-title mb-4">Pantallas e interacciones</h2>
+            <p class="mb-4">
+                El prototipo contempla una pantalla principal con listado de libros y una pantalla de detalle.
+                En ambas se trabajaron cambios visuales al interactuar, principalmente a través de hover en
+                portadas, íconos e imagen destacada.
+            </p>
+            <div class="row g-4">
+                <!-- INICIO PANTALLA HOME -->
+                <!-- 1. pantalla home libros -->
+                <div class="col-12 col-md-6 col-xl-3">
+                    <article class="gallery-card">
+                        <button type="button" class="image-button p-0 border-0 bg-transparent" data-bs-toggle="modal"
+                            data-bs-target="#modalHome">
+                            <img src="../assets/img/biblioteca_alderete/prototipo_p2-1.jpg"
+                                class="img-pantallas img-fluid rounded shadow-sm project-image"
+                                alt="Pantalla home en Biblioteca Alderete">
+                        </button>
+                        <h3 class="h5 mt-3">Pantalla Home</h3>
+                        <p>Vista de la pantalla antes de interactuar con las tarjetas que representan cada libro.</p>
+                    </article>
+                </div>
+                <!-- 2.pantalla home libros con hover -->
+                <div class="col-12 col-md-6 col-xl-3">
+                    <article class="gallery-card">
+                        <button type="button" class="image-button p-0 border-0 bg-transparent" data-bs-toggle="modal"
+                            data-bs-target="#modalHomeHover">
+                            <img src="../assets/img/biblioteca_alderete/prototipo_p2-2.jpg"
+                                class="img-pantallas img-fluid rounded shadow-sm project-image"
+                                alt="Pantalla home con efecto hover en Biblioteca Alderete">
+                        </button>
+                        <h3 class="h5 mt-3">Home con hover</h3>
+                        <p>Cambio de color e ícono al interactuar con las tarjetas.</p>
+                    </article>
+                </div>
+                <!-- INICIO PANTALLA DETALLE -->
+                <!-- 3.pantalla detalle libros -->
+                <div class="col-12 col-md-6 col-xl-3">
+                    <article class="gallery-card">
+                        <button type="button" class="image-button p-0 border-0 bg-transparent" data-bs-toggle="modal"
+                            data-bs-target="#modalDetalle">
+                            <img src="../assets/img/biblioteca_alderete/prototipo_p3-1.jpg"
+                                class="img-pantallas img-fluid rounded shadow-sm project-image"
+                                alt="Pantalla detalle en Biblioteca Alderete">
+                        </button>
+                        <h3 class="h5 mt-3">Pantalla Detalle</h3>
+                        <p>Pantalla resultado de hacer click en uno de los libros en pantalla Home antes de la
+                            interacción.
+                        </p>
+                    </article>
+                </div>
+                <!-- 4. pantalla home libros con hover -->
+                <div class="col-12 col-md-6 col-xl-3">
+                    <article class="gallery-card">
+                        <button type="button" class="image-button p-0 border-0 bg-transparent" data-bs-toggle="modal"
+                            data-bs-target="#modalDetalleHover">
+                            <img src="../assets/img/biblioteca_alderete/prototipo_p3-2.jpg"
+                                class="img-pantallas img-fluid rounded shadow-sm project-image"
+                                alt="Pantalla de detalle con cambio visual en Biblioteca Alderete">
+                        </button>
+                        <h3 class="h5 mt-3">Detalle con hover</h3>
+                        <p>La vista detalle cambia la imagen al pasar el cursor.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- cuarto bloque => SECCION VIDEO -->
+        <section id="video" class="project-video container pb-5">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-5">
+                    <article class="video-preview">
+                        <button type="button" class="image-button p-0 border-0 bg-transparent" data-bs-toggle="modal"
+                            data-bs-target="#modalVideoImagen">
+                            <img src="../assets/img/biblioteca_alderete/vista_general.jpg"
+                                class="img-fluid rounded shadow-sm"
+                                alt="Vista previa del prototipo Biblioteca Alderete">
+                        </button>
+                    </article>
+                </div>
+                <div class="col-12 col-lg-7">
+                    <h2 class="section-title mb-3">Video del prototipo</h2>
+                    <p>
+                        Además de las capturas, registré el prototipo en video para mostrar con mayor claridad
+                        la secuencia entre pantallas y los cambios visuales que aparecen al interactuar.
+                    </p>
+                    <p>
+                        Esto me permitió observar el proyecto como una experiencia completa, no solo como
+                        pantallas estáticas separadas, especialmente en los estados hover y en el paso
+                        desde la vista principal hacia la pantalla de detalle.
+                    </p>
+                    <a class="btn btn-dark" href="../assets/video/biblioteca_alderete/prototipo_animado_biblioteca.mp4"
+                        target="_blank" rel="noopener noreferrer">
+                        Ver video
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- quinto bloque => DOCUMENTO FINAL -->
+        <section id="documento" class="project-closing container pb-5">
+            <div class="row align-items-center g-4">
+                <div class="col-12 col-lg-7">
+                    <h2 class="section-title mb-3">Documento final</h2>
+                    <p>
+                        En esta página resumí las decisiones y pantallas principales del prototipo,
+                        pero el documento completo reúne el desarrollo del ejercicio, incluyendo
+                        tipografía, grillas, capturas y estados interactivos trabajados en Figma.
+                    </p>
+                    <p class="mb-0">
+                        El PDF funciona como respaldo del proyecto completo y permite revisar con
+                        más detalle el proceso presentado.
+                    </p>
+                </div>
+
+                <div class="col-12 col-lg-5">
+                    <div class="project-card p-4 h-100 d-flex flex-column justify-content-center">
+                        <h3 class="h5 mb-3">Archivo del proyecto</h3>
+                        <a class="btn btn-outline-dark"
+                            href="../assets/docs/biblioteca_alderete/prototipo_interactivo_biblioteca.pdf"
+                            target="_blank" rel="noopener noreferrer">
+                            Ver PDF completo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- INICIO MODALES IMAGENES => para ampliar las imágenes sin salir de la web -->
+        <section>
+            <!-- dos modales grillas y columnas -->
+            <div class="modal fade" id="modalGrillas" tabindex="-1" aria-labelledby="modalGrillasLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalGrillasLabel">
+                                Base de grillas y columnas para ordenar el contenido dentro de las pantallas
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img src="../assets/img/biblioteca_alderete/vista_general_grillas_columnas.jpg"
+                                class="img-fluid rounded shadow-sm"
+                                alt="Vista general con grillas y columnas del prototipo Biblioteca Alderete">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalHomeGrillaColumna" tabindex="-1"
+                aria-labelledby="modalHomeGrillaColumnaLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalHomeGrillaColumnaLabel">
+                                Pantalla home con grillas y columnas
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img src="../assets/img/biblioteca_alderete/pantalla_2_home_libros_1.jpg"
+                                class="img-fluid rounded shadow-sm"
+                                alt="Pantalla home con grillas y columnas en Biblioteca Alderete">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalHomeGrillaColumnaH" tabindex="-1"
+                aria-labelledby="modalHomeGrillaColumnaHLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalHomeGrillaColumnaHLabel">
+                                Pantalla libros en evento hover con grillas y columnas
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img src="../assets/img/biblioteca_alderete/pantalla_2_home_libros_2.jpg"
+                                class="img-fluid rounded shadow-sm"
+                                alt="Pantalla libro ambos colores en evento hover Biblioteca Alderete">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalDetalleGrillaColumna" tabindex="-1"
+                aria-labelledby="modalDetalleGrillaColumnaLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalDetalleGrillaColumnaLabel">
+                                Vista de pantalla de detalle con columnas y grillas
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img src="../assets/img/biblioteca_alderete/pantalla_3_detalle.jpg"
+                                class="img-fluid rounded shadow-sm"
+                                alt="Pantalla de detalle con grillas y columnas en Biblioteca Alderete">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- modales pantallas individuales - son 4 -->
+            <!-- 1. pantalla home libros -->
+            <div class="modal fade" id="modalHome" tabindex="-1" aria-labelledby="modalHomeLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalHomeLabel">
+                                Vista de la pantalla antes de interactuar
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img src="../assets/img/biblioteca_alderete/prototipo_p2-1.jpg"
+                                class="img-pantallas img-fluid rounded shadow-sm project-image"
+                                alt="Pantalla home en Biblioteca Alderete">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2.pantalla home libros con hover -->
+            <div class="modal fade" id="modalHomeHover" tabindex="-1" aria-labelledby="modalHomeHoverLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalHomeHoverLabel">
+                                Cambio de color e ícono al interactuar
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img src="../assets/img/biblioteca_alderete/prototipo_p2-2.jpg"
+                                class="img-pantallas img-fluid rounded shadow-sm project-image"
+                                alt="Pantalla home con efecto hover en Biblioteca Alderete">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3.pantalla detalle libros -->
+            <div class="modal fade" id="modalDetalle" tabindex="-1" aria-labelledby="modalDetalleLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalDetalleLabel">
+                                Pantalla resultado de hacer click en uno de los libros
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img src="../assets/img/biblioteca_alderete/prototipo_p3-1.jpg"
+                                class="img-pantallas img-fluid rounded shadow-sm project-image"
+                                alt="Pantalla detalle en Biblioteca Alderete">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4. pantalla home libros con hover -->
+            <div class="modal fade" id="modalDetalleHover" tabindex="-1" aria-labelledby="modalDetalleHoverLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalDetalleHoverLabel">
+                                Cambia la imagen al pasar el cursor
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img src="../assets/img/biblioteca_alderete/prototipo_p3-2.jpg"
+                                class="img-pantallas img-fluid rounded shadow-sm project-image"
+                                alt="Pantalla de detalle con cambio visual en Biblioteca Alderete">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- modal imagen junto al video -->
+            <div class="modal fade" id="modalVideoImagen" tabindex="-1" aria-labelledby="modalVideoImagenLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalVideoImagenLabel">
+                                Vista previa del prototipo
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img src="../assets/img/biblioteca_alderete/vista_general.jpg"
+                                class="img-fluid rounded shadow-sm"
+                                alt="Vista previa del prototipo Biblioteca Alderete">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN TODOS LOS MODALES DE LAS IMAGENES -->
+    </main>
+    <br><br>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light mt-auto">
+        <div class="container py-2">
+            <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
+                <p class="mb-0">&copy; 2026 Kathy Alderete</p>
+                <a class="btn btn-outline-light btn-sm d-flex align-items-center gap-2"
+                    href="https://github.com/KathyAlde21" target="_blank" rel="noopener">
+                    <img src="../assets/img/github.png" alt="GitHub Logo" width="20" height="20" class="icon-github"
+                        loading="lazy">
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- Script principal -->
+    <script defer src="../assets/js/script.js"></script>
+</body>
+
+</html>
