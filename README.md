@@ -1,7 +1,7 @@
 **_<h1 align="center">:vulcan_salute: Proyectos Curso UX/UI :computer:</h1>_**
 
-Reúno aquí una selección de proyectos desarrollados durante mi formación en UX/UI, enfocados en prototipado, arquitectura de la información, sistemas visuales e interacción.
-Puedes visitar la página en [GitHub Pages - Proyectos Curso UX/UI](https://kathyalde21.github.io/pppp1/)
+- Reúno aquí una selección de proyectos desarrollados durante mi formación en UX/UI, enfocados en prototipado, arquitectura de la información, sistemas visuales e interacción.
+- Puedes visitar la página en [GitHub Pages - Proyectos Curso UX/UI](https://kathyalde21.github.io/proyectos_uxui/)
 
 <!------------------------------------------------------------------------------------------------ -->
 
@@ -73,7 +73,7 @@ Puedes visitar la página en [GitHub Pages - Proyectos Curso UX/UI](https://kath
 **<h2 align="center">&#128204;Centro de Estudios Alderete</h2>**
 
 - Prototipo de baja fidelidad para una web institucional con sección pública, noticias e intranet, desarrollado en Figma a partir de moodboard, estructura de pantallas y evaluación heurística.
-- Puedes visitar la página en [GitHub Pages - Proyectos 1](https://kathyalde21.github.io/pppp1/)
+- Puedes visitar la página en [GitHub Pages - Centro de Estudios Alderete](https://kathyalde21.github.io/proyectos_uxui/pages/centro_de_estudios_alderete.html)
 
 <hr style="border: none; height: 2px; background-color: blue; width: 80%;">
 <!-- ---------------------------------------------------------------------------------------------- -->
@@ -81,7 +81,7 @@ Puedes visitar la página en [GitHub Pages - Proyectos Curso UX/UI](https://kath
 **<h2 align="center">&#128204;Alderete Sports</h2>**
 
 - Proyecto de arquitectura de la información para un e-commerce deportivo, trabajado desde benchmarking, card sorting, sitemap y wireflow para ordenar contenidos y mejorar la navegación.
-- Puedes visitar la página en [GitHub Pages - Proyectos 2](https://kathyalde21.github.io/pppp1/)
+- Puedes visitar la página en [GitHub Pages - Alderete Sports](https://kathyalde21.github.io/proyectos_uxui/pages/alderete_sports.html)
 
 <hr style="border: none; height: 2px; background-color: blue; width: 80%;">
 <!-- ---------------------------------------------------------------------------------------------- -->
@@ -89,7 +89,7 @@ Puedes visitar la página en [GitHub Pages - Proyectos Curso UX/UI](https://kath
 **<h2 align="center">&#128204;Biblioteca Alderete</h2>**
 
 - Prototipo interactivo en Figma para una biblioteca digital, enfocado en uso de grillas, distribución visual y cambios de estado mediante hover entre la pantalla principal y la vista de detalle.
-- Puedes visitar la página en [GitHub Pages - Proyectos 3](https://kathyalde21.github.io/pppp1/)
+- Puedes visitar la página en [GitHub Pages - Biblioteca Alderete](https://kathyalde21.github.io/proyectos_uxui/pages/biblioteca_alderete.html)
 
 <hr style="border: none; height: 2px; background-color: blue; width: 80%;">
 <!-- ---------------------------------------------------------------------------------------------- -->
@@ -97,7 +97,7 @@ Puedes visitar la página en [GitHub Pages - Proyectos Curso UX/UI](https://kath
 **<h2 align="center">&#128204;NutriApp KAlde</h2>**
 
 - Mini-guideline basado en Atomic Design, orientado a estructurar componentes visuales desde átomos, moléculas y organismos para una app ficticia de nutrición.
-- Puedes visitar la página en [GitHub Pages - Proyectos 4](https://kathyalde21.github.io/pppp1/)
+- Puedes visitar la página en [GitHub Pages - Proyectos 4](https://kathyalde21.github.io/proyectos_uxui/pages/nutriapp_kalde.html)
 
 <hr style="border: none; height: 2px; background-color: blue; width: 80%;">
 <!-- ---------------------------------------------------------------------------------------------- -->
